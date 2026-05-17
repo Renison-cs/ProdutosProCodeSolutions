@@ -21,7 +21,7 @@
 
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 
-		<!-- Banco PostgreSQL -->
+		
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.0" />
 	</ItemGroup>
 

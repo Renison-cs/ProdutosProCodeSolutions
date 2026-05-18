@@ -1,11 +1,13 @@
 ﻿using Produtos.Models;
 using Microsoft.AspNetCore.Mvc;
 using Produtos.Context;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Produtos.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    [Authorize]
     public class ProdutosController : ControllerBase
     {
 
